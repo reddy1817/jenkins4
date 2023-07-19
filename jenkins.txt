@@ -15,11 +15,9 @@ pipeline {
             steps {
                 sh 'date'
             }
-  stage('name') { 
-            steps {
-                sh 'my name is raj'
-            }
+  
+
         }
     }
 }
-}
+
