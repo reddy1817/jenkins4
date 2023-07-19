@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'java --version' 
             }
+
         }
         stage('Test') { 
             steps {
@@ -15,12 +16,12 @@ pipeline {
             steps {
                 sh 'date'
             }
- stage('test Deploy') { 
+		stage('hello') { 
             steps {
                 sh 'date'
-            } 
-
+            }
+        }			
+			
         }
     }
-}
 }
